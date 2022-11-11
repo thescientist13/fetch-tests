@@ -7,6 +7,7 @@ Seeing it in both these projects
 - https://github.com/AnalogStudiosRI/www.tuesdaystunes.tv/blob/main/src/pages/index.js#L11
 
 ## Setup
+
 1. Clone this repo
 1. Run `nvm` (or make sure you are using Node >= `18.11.x`)
 1. Run `npm ci`

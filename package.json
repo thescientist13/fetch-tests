@@ -2,20 +2,12 @@
   "name": "fetch-tests",
   "version": "1.0.0",
   "description": "A repo for testing fetch and http implementations",
+  "author": "Owen Buckley <owen@thegreenhouse.io>",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thescientist13/fetch-tests.git"
   },
-  "author": "Owen Buckley <owen@thegreenhouse.io>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thescientist13/fetch-tests/issues"
-  },
-  "homepage": "https://github.com/thescientist13/fetch-tests#readme",
   "dependencies": {
     "node-fetch": "^3.3.0",
     "request": "^2.88.2"
