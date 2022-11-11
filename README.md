@@ -3,8 +3,10 @@
 A repo for testing fetch and http implementations.  For some reason, it seems _query strings_ aren't behaving as expected with native **fetch** / **node-fetch** as with raw HTTP.
 
 Seeing it in both these projects
-- https://github.com/AnalogStudiosRI/www.analogstudios.net/issues/81
-- https://github.com/AnalogStudiosRI/www.tuesdaystunes.tv/blob/main/src/pages/index.js#L11
+1. https://github.com/AnalogStudiosRI/www.analogstudios.net/issues/81
+    - fixed in userland by [appending a `/` slash](https://github.com/AnalogStudiosRI/www.analogstudios.net/pull/82)
+1. https://github.com/AnalogStudiosRI/www.tuesdaystunes.tv/blob/main/src/pages/index.js#L11
+    - turned out to be an [incorrect implementation false positive](https://github.com/AnalogStudiosRI/www.tuesdaystunes.tv/pull/90)
 
 ## Setup
 

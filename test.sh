@@ -1,5 +1,5 @@
 # constants
-export ENDPOINT='https://www.analogstudios.net/api/albums';
+export ENDPOINT='https://www.analogstudios.net/api/albums/';
 export EXPECTED=1;
 
 # test native fetch
