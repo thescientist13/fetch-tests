@@ -14,7 +14,7 @@ https.get(url, (resp) => {
 
     console.debug(`[https] Request => ${url}`);
     console.debug(`[https] Response Length (actual) => ${data.length}`);
-    console.debug(`[nodeFetch] Response Length (expected) => ${process.env.EXPECTED}`);
+    console.debug(`[https] Response Length (expected) => ${process.env.EXPECTED}`);
 
     if (data.length === parseInt(process.env.EXPECTED, 10)) {
       console.log('\x1b[32m%s\x1b[0m', 'PASS')

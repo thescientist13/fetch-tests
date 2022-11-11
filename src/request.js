@@ -11,7 +11,7 @@ request.get(url, (err, res, body) => {
 
   console.debug(`[request] Request => ${url}`);
   console.debug(`[request] Response Length (actual) => ${data.length}`);
-  console.debug(`[nodeFetch] Response Length (expected) => ${process.env.EXPECTED}`);
+  console.debug(`[request] Response Length (expected) => ${process.env.EXPECTED}`);
 
   if (data.length === parseInt(process.env.EXPECTED, 10)) {
     console.log('\x1b[32m%s\x1b[0m', 'PASS')
